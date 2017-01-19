@@ -1,0 +1,142 @@
+/* get10 http://codepen.io/hkleowong/pen/ZBwowp */
+
+#get10 .section-divider {
+    z-index: 999;
+    width: 100%;
+    display: table;
+    max-height: 1000px;
+    border-bottom: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 5%;
+    padding-bottom: 20%;
+
+    background-position: center center;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-attachment: relative;
+
+    text-align: center;
+}
+
+#get10 .textdivider .title {
+	padding-top: 7%;
+	color: white;
+	font-size: 4vw;
+ margin-bottom: 0;
+  font-weight: 500;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+#get10 .textdivider hr {
+  width: 50%;
+}
+
+#get10 .textdivider .description {
+	color: white;
+		font-size: 2vw;
+  	font-weight: 400;
+}
+
+#get10 .divider1 {
+	background-image: url('https://cdn.shopify.com/s/files/1/1404/8810/files/6tfmrtzc5dg-eduard-militaru-min.jpg?7654845427022324660')
+}
+
+
+#get10 .container-fluid {
+  padding: 0;
+}
+
+#get10 .text-row {
+  background-color: #DBE2EC;
+  color: #2A3D59; 
+}
+
+#get10 .top-statement {
+  font-size: 1.8vw;
+  max-width: 40%;
+  font-weight: 500;
+  padding-top: 11%;
+  padding-bottom: 11%;
+  margin: 0 auto;
+}
+
+#get10 .statement {
+  font-weight: 400;
+  font-size: 1.8vw;
+  max-width: 40%;
+  padding-top: 11%;
+  padding-bottom: 11%;
+  margin: 0 auto;
+} 
+
+
+#get10 .container-fluid {
+  padding: 0;
+}
+
+#get10 .pic-container {
+  padding: 0;
+  margin: 0;
+}
+
+#get10 .pic-fill {
+  padding:0;
+}
+
+#get10 .full-of-history, #get10 .timeless {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+
+#get10 .values {
+  margin-top: 13%;
+  margin-bottom: 13%;
+}
+
+/* Responsive Styles */
+
+/* desktop screen sizes */
+@media (min-width: 992px) {
+
+}
+
+/* tablets screen sizes */
+@media (min-width: 767px) and (max-width: 991px) {
+
+}
+
+/* small screen sizes */
+@media (max-width: 767px) {
+  
+  #get10 .top-statement {
+  font-size: 4vw;
+  max-width: 60%;
+  }
+  #get10 .statement {
+  font-size: 3.5vw;
+  max-width: 60%;
+  }
+  
+  #get10 .values {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  
+}
+
+  
+
